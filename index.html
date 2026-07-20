@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="StreetFlow: tienda de ropa urbana con camisetas, sudaderas, zapatillas y más. Compra online ropa para hombres y mujeres.">
+    <meta name="description"
+        content="StreetFlow: tienda de ropa urbana con camisetas, sudaderas, zapatillas y más. Compra online ropa para hombres y mujeres.">
     <meta name="keywords" content="ropa urbana, streetwear, camisetas oversize, sudaderas, zapatillas, moda urbana">
     <meta name="author" content="Crixx">
     <title>StreetFlow - Ropa Urbana Online</title>
     <link rel="stylesheet" href="style.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;600;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;600;700&family=PT+Serif:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9582123606262246" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9582123606262246"
+        crossorigin="anonymous"></script>
 
     <header class="main-header">
-        <h1>StreetFlow</h1>
+        <h1>XTech</h1>
         <div class="linea"></div>
+        <div class="theme-selector">
+            <span class="theme-label">Tema RGB:</span>
+            <button class="theme-btn red active" data-color="#e60023" data-rgb="230, 0, 35" title="Red MSI"></button>
+            <button class="theme-btn green" data-color="#00ff66" data-rgb="0, 255, 102" title="Green Razer"></button>
+            <button class="theme-btn blue" data-color="#0088ff" data-rgb="0, 136, 255" title="Blue Intel"></button>
+            <button class="theme-btn purple" data-color="#9d00ff" data-rgb="157, 0, 255" title="Purple Gamer"></button>
+        </div>
     </header>
 
     <div class="bar-herramientas">
-        <div class="radio-input">
-            <input value="value-1" name="value-radio" id="value-1" type="radio">
-            <label for="value-1">Hombre</label>
-            <input value="value-2" name="value-radio" id="value-2" type="radio">
-            <label for="value-2">Mujer</label>
-            <input value="value-3" name="value-radio" id="value-3" type="radio">
-            <label for="value-3">Ambos</label>
-        </div>
-
         <div class="search-container">
             <div class="search-bar">
                 <input type="text" class="search-input" placeholder="Búsqueda..." />
                 <div class="search-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                         <path d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 14C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                        <path
+                            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 14C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                        </path>
                     </svg>
                 </div>
             </div>
@@ -47,9 +53,12 @@
 
         <div class="cart-container" style="cursor: pointer;">
             <button data-quantity="0" class="btn-cart">
-                <svg class="icon-cart" viewBox="0 0 24.38 30.52" height="30.52" width="24.38" xmlns="http://www.w3.org/2000/svg">
+                <svg class="icon-cart" viewBox="0 0 24.38 30.52" height="30.52" width="24.38"
+                    xmlns="http://www.w3.org/2000/svg">
                     <title>icon-cart</title>
-                    <path transform="translate(-3.62 -0.85)" d="M28,27.3,26.24,7.51a.75.75,0,0,0-.76-.69h-3.7a6,6,0,0,0-12,0H6.13a.76.76,0,0,0-.76.69L3.62,27.3v.07a4.29,4.29,0,0,0,4.52,4H23.48a4.29,4.29,0,0,0,4.52-4ZM15.81,2.37a4.47,4.47,0,0,1,4.46,4.45H11.35a4.47,4.47,0,0,1,4.46-4.45Zm7.67,27.48H8.13a2.79,2.79,0,0,1-3-2.45L6.83,8.34h3V11a.76.76,0,0,0,1.52,0V8.34h8.92V11a.76.76,0,0,0,1.52,0V8.34h3L26.48,27.4a2.79,2.79,0,0,1-3,2.44Zm0,0"></path>
+                    <path transform="translate(-3.62 -0.85)"
+                        d="M28,27.3,26.24,7.51a.75.75,0,0,0-.76-.69h-3.7a6,6,0,0,0-12,0H6.13a.76.76,0,0,0-.76.69L3.62,27.3v.07a4.29,4.29,0,0,0,4.52,4H23.48a4.29,4.29,0,0,0,4.52-4ZM15.81,2.37a4.47,4.47,0,0,1,4.46,4.45H11.35a4.47,4.47,0,0,1,4.46-4.45Zm7.67,27.48H8.13a2.79,2.79,0,0,1-3-2.45L6.83,8.34h3V11a.76.76,0,0,0,1.52,0V8.34h8.92V11a.76.76,0,0,0,1.52,0V8.34h3L26.48,27.4a2.79,2.79,0,0,1-3,2.44Zm0,0">
+                    </path>
                 </svg>
                 <span class="quantity"></span>
             </button>
@@ -58,211 +67,230 @@
     </div>
 
     <div class="contenedor_seleccion">
-        <button class="camisetas">Camisetas Oversize</button>
-        <button class="sudaderas">Sudaderas con Capucha</button>
-        <button class="pantalones">Pantalones Cargo</button>
-        <button class="chaquetas">Chaquetas Bomber</button>
-        <button class="gorras">Gorras y Accesorios</button>
-        <button class="zapatillas">Zapatillas Urbanas</button>
-        <button class="jeans">Jeans Rasgados</button>
+        <button class="audifonos">Audifonos</button>
+        <button class="bocinas">Bocinas</button>
+        <button class="teclados">Teclados</button>
+        <button class="mouse">Mouse</button>
+        <button class="usb">Usb</button>
+        <button class="ssd">SSD</button>
+        <button class="mandos">Mandos</button>
     </div>
 
     <main class="contenedor-cards">
-        <div class="card">
+        <!-- AUDIFONOS -->
+        <div class="card" data-category="audifonos" data-desc="Auriculares gamer profesionales con sonido envolvente e iluminación dinámica RGB." data-specs="Sonido 7.1, Iluminación RGB, Conexión Inalámbrica, Micrófono Desmontable">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/71OZsobuPRL._AC_UF1000,1000_QL80_.jpg" alt="Camiseta Oversize Gris">
+                <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500&auto=format&fit=crop&q=60" alt="Audífonos HyperX Pro">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Camiseta Oversize Gris</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Audífonos HyperX Pro</strong></p>
+                <p>Precio : $1499</p>
+                <div class="badges">
+                    <span class="badge">7.1 Surround</span>
+                    <span class="badge">Inalámbrico</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-category="audifonos" data-desc="Auriculares de gama alta con transductores de neodimio y soporte completo para Dolby Atmos." data-specs="Dolby Atmos, Cancelación Ruido, Almohadillas Gel, Autonomía 20 horas">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/51BMTUsA21L._AC_SX342_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=500&auto=format&fit=crop&q=60" alt="Audífonos Corsair Void">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Camiseta Oversize Negra</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Audífonos Corsair Void</strong></p>
+                <p>Precio : $1899</p>
+                <div class="badges">
+                    <span class="badge">Dolby Atmos</span>
+                    <span class="badge">ANC</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <!-- BOCINAS -->
+        <div class="card" data-category="bocinas" data-desc="Sistema de altavoces de escritorio con potente subwoofer y retroiluminación inteligente RGB sincronizada con tu pantalla." data-specs="Potencia 240W, Iluminación Lightsync, Conectividad Bluetooth, Entrada Óptica">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/712aq63EDrL._AC_SX425_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?w=500&auto=format&fit=crop&q=60" alt="Altavoces Logitech G560">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Camiseta Oversize Blanca</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Altavoces Logitech G560</strong></p>
+                <p>Precio : $2999</p>
+                <div class="badges">
+                    <span class="badge">240W RMS</span>
+                    <span class="badge">Lightsync</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-category="bocinas" data-desc="Barra de sonido compacta para debajo del monitor con sonido estéreo nítido e iluminación RGB integrada." data-specs="Sonido Estéreo, Bluetooth 5.0, Batería Recargable, RGB Dinámico">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/71Ec9FQhhAL._AC_SX425_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=500&auto=format&fit=crop&q=60" alt="Barra de Sonido Xtech">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Camiseta Oversize Anime</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Barra de Sonido Xtech</strong></p>
+                <p>Precio : $1250</p>
+                <div class="badges">
+                    <span class="badge">Estéreo Hifi</span>
+                    <span class="badge">Bluetooth</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <!-- TECLADOS -->
+        <div class="card" data-category="teclados" data-desc="Teclado mecánico completo de alto rendimiento con switches lineales y distribución en español." data-specs="Switches Red, Iluminación RGB, Reposamuñecas, Chasis de Aluminio">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/618UcHu7bsL._AC_SX425_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&auto=format&fit=crop&q=60" alt="Teclado Mecánico Apex Pro">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Camiseta Oversize Vintage</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Teclado Mecánico Pro</strong></p>
+                <p>Precio : $1599</p>
+                <div class="badges">
+                    <span class="badge">Cherry Red</span>
+                    <span class="badge">RGB</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-category="teclados" data-desc="Teclado mecánico ultra-compacto formato 60% ideal para ahorrar espacio en escritorios gamer." data-specs="Formato 60%, Switches Blue, Cable USB-C, RGB Programable">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/71JP4S+Ak9L._AC_SX425_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1595225476474-87563907a212?w=500&auto=format&fit=crop&q=60" alt="Teclado Gamer Mini">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Camiseta Oversize Acid Wash</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Teclado Mini 60%</strong></p>
+                <p>Precio : $999</p>
+                <div class="badges">
+                    <span class="badge">Switches Blue</span>
+                    <span class="badge">60% Layout</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <!-- MOUSE -->
+        <div class="card" data-category="mouse" data-desc="Mouse gamer ultraligero con diseño perforado panel de abeja para movimientos rápidos y precisos." data-specs="Sensor 16,000 DPI, Peso 69g, Cable Ultraligero, Switches Omron">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/51dtIPvu3nL._AC_SX385_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&auto=format&fit=crop&q=60" alt="Mouse Gamer Honeycomb">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Sudadera con Capucha Negra</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Mouse Ultraligero H1</strong></p>
+                <p>Precio : $799</p>
+                <div class="badges">
+                    <span class="badge">16K DPI</span>
+                    <span class="badge">69 gramos</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-category="mouse" data-desc="Mouse inalámbrico profesional de alto rendimiento con sensor óptico de última generación." data-specs="Sensor HERO, Inalámbrico, Batería 60h, 6 Botones Programables">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/81Df3UE+1SL._AC_SX342_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1625842268584-8f329044703b?w=500&auto=format&fit=crop&q=60" alt="Mouse Logitech G Pro">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Pantalones Cargo Verde</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Mouse Gamer Wireless</strong></p>
+                <p>Precio : $1399</p>
+                <div class="badges">
+                    <span class="badge">Sensor Hero</span>
+                    <span class="badge">Inalámbrico</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <!-- USB -->
+        <div class="card" data-category="usb" data-desc="Memoria USB de alta resistencia metálica con interfaz USB 3.2 para transferencia ultrarrápida." data-specs="Capacidad 128GB, Interfaz USB 3.2, Cuerpo Metálico, Lector 150MB/s">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/41QNjsKAsbL._AC_SX385_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=500&auto=format&fit=crop&q=60" alt="Memoria USB Metálica">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Chaquetas Bomber Street</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Memoria USB 3.2 128GB</strong></p>
+                <p>Precio : $299</p>
+                <div class="badges">
+                    <span class="badge">128 GB</span>
+                    <span class="badge">USB 3.2</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-category="usb" data-desc="Memoria USB ultra compacta de alta velocidad ideal para portátiles y reproductores de audio." data-specs="Capacidad 256GB, Interfaz USB 3.2 Gen 2, Diseño Compacto, Lector 200MB/s">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/71prV4f-JRL._AC_SY445_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=500&auto=format&fit=crop&q=60" alt="Pendrive Kingston Slim">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Gorra Streetwear Negra</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>USB Kingston Slim 256GB</strong></p>
+                <p>Precio : $499</p>
+                <div class="badges">
+                    <span class="badge">256 GB</span>
+                    <span class="badge">USB High-Speed</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <!-- SSD -->
+        <div class="card" data-category="ssd" data-desc="Unidad interna de estado sólido NVMe de alta velocidad ideal para reducir tiempos de carga." data-specs="Capacidad 1TB, Factor de forma M.2 NVMe, Lectura 3500MB/s, PCIe 4.0">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/71mG6Wii7aL._AC_SX425_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500&auto=format&fit=crop&q=60" alt="SSD M.2 NVMe NV2">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Zapatillas Urbanas Red</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>SSD M.2 NVMe 1TB</strong></p>
+                <p>Precio : $1199</p>
+                <div class="badges">
+                    <span class="badge">M.2 NVMe</span>
+                    <span class="badge">3500 MB/s</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-category="ssd" data-desc="SSD insignia de rendimiento extremo con disipador térmico de aluminio incorporado, compatible con PS5 y PC." data-specs="Capacidad 2TB, Disipador Integrado, Lectura 7450MB/s, Compatible PS5/PC">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/816C5V1om0L._AC_SY445_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&auto=format&fit=crop&q=60" alt="SSD Samsung 990 Pro">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Jeans Rasgados Azules</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>SSD Samsung 990 Pro 2TB</strong></p>
+                <p>Precio : $2799</p>
+                <div class="badges">
+                    <span class="badge">2TB PCIe 4.0</span>
+                    <span class="badge">Disipador RGB</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <!-- MANDOS -->
+        <div class="card" data-category="mandos" data-desc="Mando inalámbrico oficial de Xbox con ergonomía refinada, joysticks de alta sensibilidad y agarre antideslizante." data-specs="Conexión Inalámbrica, Puerto Jack 3.5mm, Compatibilidad PC/Xbox, Pilas/Batería recargable">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/618pNjzw5yL._AC_SX425_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?w=500&auto=format&fit=crop&q=60" alt="Mando Xbox Carbon Black">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Camiseta Oversize StreetFlow</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Mando Xbox Series Black</strong></p>
+                <p>Precio : $1399</p>
+                <div class="badges">
+                    <span class="badge">Xbox & PC</span>
+                    <span class="badge">Inalámbrico</span>
+                </div>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-category="mandos" data-desc="Control inalámbrico DualSense con retroalimentación háptica y gatillos adaptativos." data-specs="Retroalimentación Háptica, Gatillos Adaptativos, Micrófono Integrado, Sensor de Movimiento">
             <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/61kJHrEQIYL._AC_SY445_.jpg" alt="Camiseta Oversize">
+                <img src="https://images.unsplash.com/photo-1592840496694-26d035b52b48?w=500&auto=format&fit=crop&q=60" alt="Mando DualSense PS5 White">
             </div>
             <div class="add-cart">Añadir al Carrito</div>
             <div class="info-card">
-                <p><strong>Sudadera con Capucha Gris</strong></p>
-                <p>Precio : $500</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/71b0Aov-M8L._AC_SX342_.jpg" alt="Camiseta Oversize">
-            </div>
-            <div class="add-cart">Añadir al Carrito</div>
-            <div class="info-card">
-                <p><strong>Pantalones Cargo Negros</strong></p>
-                <p>Precio : $500</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/71zxIAebifL._AC_SX342_.jpg" alt="Camiseta Oversize">
-            </div>
-            <div class="add-cart">Añadir al Carrito</div>
-            <div class="info-card">
-                <p><strong>Chaqueta Bomber Black</strong></p>
-                <p>Precio : $500</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/61CCH22e68L._AC_SX466_.jpg" alt="Camiseta Oversize">
-            </div>
-            <div class="add-cart">Añadir al Carrito</div>
-            <div class="info-card">
-                <p><strong>Gorra Retro Street</strong></p>
-                <p>Precio : $500</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="img-card">
-                <img src="https://m.media-amazon.com/images/I/51qwE5LNkuL._AC_SX466_.jpg" alt="Camiseta Oversize">
-            </div>
-            <div class="add-cart">Añadir al Carrito</div>
-            <div class="info-card">
-                <p><strong>Zapatillas Urbanas White</strong></p>
-                <p>Precio : $500</p>
+                <p><strong>Mando DualSense PS5</strong></p>
+                <p>Precio : $1499</p>
+                <div class="badges">
+                    <span class="badge">PS5 & PC</span>
+                    <span class="badge">Háptico</span>
+                </div>
             </div>
         </div>
     </main>
@@ -270,9 +298,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // --- CONFIGURACIÓN DE TU WHATSAPP ---
-            // Reemplaza este número con el tuyo (incluye el código de país sin el signo +)
-            // Ejemplo: 1809XXXXXXX (República Dominicana) o 34XXXXXXXXX (España)
-            const TELEFONO_WHATSAPP = "18493793749"; 
+            const TELEFONO_WHATSAPP = "18493793749";
 
             // --- ESTADO GLOBAL ---
             let carrito = [];
@@ -285,13 +311,25 @@
             const btnCart = document.querySelector('.btn-cart');
             const quantityBadge = document.querySelector('.quantity');
 
+            // --- SELECTOR DE TEMAS RGB ---
+            const themeBtns = document.querySelectorAll('.theme-btn');
+            themeBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    themeBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const color = btn.getAttribute('data-color');
+                    const rgb = btn.getAttribute('data-rgb');
+                    document.documentElement.style.setProperty('--primary-color', color);
+                    document.documentElement.style.setProperty('--primary-color-rgb', rgb);
+                });
+            });
+
             // --- DISEÑO DINÁMICO DE LA NOTIFICACIÓN DEL CARRITO ---
-            // Se inyecta directo en el elemento sin tocar tu archivo CSS
             Object.assign(quantityBadge.style, {
                 position: 'absolute',
                 top: '-5px',
                 right: '-5px',
-                backgroundColor: '#e60023',
+                backgroundColor: 'var(--primary-color)',
                 color: 'white',
                 fontSize: '11px',
                 fontWeight: 'bold',
@@ -310,7 +348,7 @@
             function actualizarInterfazCarrito() {
                 const totalProductos = carrito.reduce((sum, item) => sum + item.cantidad, 0);
                 btnCart.setAttribute('data-quantity', totalProductos);
-                
+
                 if (totalProductos > 0) {
                     quantityBadge.textContent = totalProductos;
                     quantityBadge.style.display = 'flex';
@@ -319,18 +357,16 @@
                 }
             }
 
-            // --- FUNCIÓN: AÑADIR AL CARRITO ---
+            // --- FUNCIÓN: AÑADIR AL CARRITO (DESDE LA TARJETA DIRECTO) ---
             cards.forEach(card => {
                 const btnAdd = card.querySelector('.add-cart');
                 btnAdd.addEventListener('click', (e) => {
-                    e.stopPropagation(); // Evita clics no deseados
-                    
+                    e.stopPropagation(); // Evita clics no deseados e impedir abrir modal de specs
+
                     const titulo = card.querySelector('.info-card strong').textContent;
-                    // Extraemos solo el número del texto "Precio : $500"
                     const precioTexto = card.querySelector('.info-card p:nth-child(2)').textContent;
                     const precio = parseInt(precioTexto.replace(/[^0-9]/g, ''), 10) || 0;
-                    
-                    // Comprobamos si el producto ya está en el carrito
+
                     const itemExistente = carrito.find(item => item.titulo === titulo);
                     if (itemExistente) {
                         itemExistente.cantidad++;
@@ -343,23 +379,139 @@
                     // Pequeño efecto visual temporal de éxito al botón presionado
                     const textoOriginal = btnAdd.textContent;
                     btnAdd.textContent = "¡Agregado! ✓";
-                    btnAdd.style.color = "#e60023";
+                    btnAdd.style.color = "#00ff66"; // verde de éxito
                     setTimeout(() => {
                         btnAdd.textContent = textoOriginal;
                         btnAdd.style.color = "";
                     }, 1000);
                 });
+
+                // --- ABRIR MODAL DE ESPECIFICACIONES ---
+                card.addEventListener('click', (e) => {
+                    // Si se hizo click en el botón de agregar al carrito directo, ignorar
+                    if (e.target.classList.contains('add-cart')) return;
+
+                    const titulo = card.querySelector('.info-card strong').textContent;
+                    const precioTexto = card.querySelector('.info-card p:nth-child(2)').textContent;
+                    const precio = parseInt(precioTexto.replace(/[^0-9]/g, ''), 10) || 0;
+                    const imgUrl = card.querySelector('.img-card img').src;
+                    const desc = card.getAttribute('data-desc') || "Sin descripción disponible.";
+                    const specsAttr = card.getAttribute('data-specs') || "";
+                    const specsList = specsAttr ? specsAttr.split(',') : [];
+
+                    abrirModalEspecificaciones(titulo, precio, imgUrl, desc, specsList);
+                });
             });
+
+            // --- FUNCIÓN: ABRIR MODAL DE ESPECIFICACIONES TÉCNICAS ---
+            function abrirModalEspecificaciones(titulo, precio, imgUrl, desc, specsList) {
+                const overlay = document.createElement('div');
+                overlay.className = 'specs-modal-overlay';
+
+                const contenido = document.createElement('div');
+                contenido.className = 'specs-modal-content';
+
+                // Botón Cerrar
+                const btnCerrar = document.createElement('button');
+                btnCerrar.className = 'specs-modal-close';
+                btnCerrar.innerHTML = '&times;';
+                btnCerrar.addEventListener('click', () => overlay.remove());
+                contenido.appendChild(btnCerrar);
+
+                // Grid Principal
+                const grid = document.createElement('div');
+                grid.className = 'specs-modal-grid';
+
+                // Imagen
+                const img = document.createElement('img');
+                img.src = imgUrl;
+                img.alt = titulo;
+                img.className = 'specs-modal-img';
+                grid.appendChild(img);
+
+                // Info
+                const info = document.createElement('div');
+                info.className = 'specs-modal-info';
+
+                const subInfo = document.createElement('div');
+                
+                const titleEl = document.createElement('h4');
+                titleEl.className = 'specs-modal-title';
+                titleEl.textContent = titulo;
+                subInfo.appendChild(titleEl);
+
+                const descEl = document.createElement('p');
+                descEl.className = 'specs-modal-desc';
+                descEl.textContent = desc;
+                subInfo.appendChild(descEl);
+
+                if (specsList.length > 0) {
+                    const techList = document.createElement('ul');
+                    techList.className = 'specs-modal-tech-list';
+                    specsList.forEach(spec => {
+                        const li = document.createElement('li');
+                        li.textContent = spec.trim();
+                        techList.appendChild(li);
+                    });
+                    subInfo.appendChild(techList);
+                }
+
+                info.appendChild(subInfo);
+
+                // Footer Modal
+                const footer = document.createElement('div');
+                footer.className = 'specs-modal-footer';
+
+                const precioEl = document.createElement('span');
+                precioEl.className = 'specs-modal-price';
+                precioEl.textContent = `$${precio}`;
+                footer.appendChild(precioEl);
+
+                const btnAdd = document.createElement('button');
+                btnAdd.className = 'specs-modal-btn-add';
+                btnAdd.textContent = 'Añadir al Carrito';
+                btnAdd.addEventListener('click', () => {
+                    const itemExistente = carrito.find(item => item.titulo === titulo);
+                    if (itemExistente) {
+                        itemExistente.cantidad++;
+                    } else {
+                        carrito.push({ titulo, precio, cantidad: 1 });
+                    }
+                    actualizarInterfazCarrito();
+
+                    // Animación de éxito
+                    btnAdd.textContent = "✓ Agregado";
+                    btnAdd.style.backgroundColor = '#00ff66';
+                    btnAdd.style.color = '#000';
+                    setTimeout(() => {
+                        btnAdd.textContent = "Añadir al Carrito";
+                        btnAdd.style.backgroundColor = '';
+                        btnAdd.style.color = '';
+                    }, 1000);
+                });
+                footer.appendChild(btnAdd);
+
+                info.appendChild(footer);
+                grid.appendChild(info);
+                contenido.appendChild(grid);
+                overlay.appendChild(contenido);
+
+                overlay.addEventListener('click', (e) => {
+                    if (e.target === overlay) overlay.remove();
+                });
+
+                document.body.appendChild(overlay);
+            }
 
             // --- FUNCIÓN: FILTRAR POR CATEGORÍAS (BOTONES) ---
             const mapeoCategorias = {
-                '.camisetas': 'camiseta',
-                '.sudaderas': 'sudadera',
-                '.pantalones': 'pantalón',
-                '.chaquetas': 'chaqueta',
-                '.gorras': 'gorra',
-                '.zapatillas': 'zapatilla',
-                '.jeans': 'jean'
+                '.audifonos': 'audifono',
+                '.bocinas': 'bocina',
+                '.teclados': 'teclado',
+                '.mouse': 'mouse',
+                '.usb': 'usb',
+                '.ssd': 'ssd',
+                '.mandos': 'mando'
             };
 
             Object.keys(mapeoCategorias).forEach(selector => {
@@ -368,14 +520,13 @@
                     boton.addEventListener('click', () => {
                         const termino = mapeoCategorias[selector];
 
-                        // Si el usuario vuelve a presionar la misma categoría activa, se limpia el filtro
                         if (filtroActivo === termino) {
                             filtroActivo = null;
                             searchInput.value = "";
                             filtrarProductos("");
                         } else {
                             filtroActivo = termino;
-                            searchInput.value = boton.textContent; // Sincroniza visualmente el buscador
+                            searchInput.value = boton.textContent;
                             filtrarProductos(termino);
                         }
                     });
@@ -384,7 +535,7 @@
 
             // --- FUNCIÓN: FILTRAR POR BARRA DE BÚSQUEDA ---
             searchInput.addEventListener('input', (e) => {
-                filtroActivo = null; // Prioriza la escritura manual sobre los botones fijos
+                filtroActivo = null;
                 filtrarProductos(e.target.value);
             });
 
@@ -392,7 +543,8 @@
                 const limpio = termino.toLowerCase().trim();
                 cards.forEach(card => {
                     const titulo = card.querySelector('.info-card strong').textContent.toLowerCase();
-                    if (titulo.includes(limpio)) {
+                    const categoria = (card.getAttribute('data-category') || '').toLowerCase();
+                    if (titulo.includes(limpio) || categoria.includes(limpio)) {
                         card.style.display = '';
                     } else {
                         card.style.display = 'none';
@@ -400,17 +552,15 @@
                 });
             }
 
-            // --- INTERFAZ DINÁMICA DEL MODAL DE COMPRAS STREETFLOW ---
+            // --- INTERFAZ DINÁMICA DEL MODAL DE COMPRAS XTECH ---
             cartContainer.addEventListener('click', () => {
                 abrirModalPedidos();
             });
 
             function abrirModalPedidos() {
-                // Removemos cualquier modal previo abierto para evitar duplicados
                 const modalPrevio = document.getElementById('streetflow-modal');
                 if (modalPrevio) modalPrevio.remove();
 
-                // Crear fondo opaco del modal
                 const overlay = document.createElement('div');
                 overlay.id = 'streetflow-modal';
                 Object.assign(overlay.style, {
@@ -428,21 +578,19 @@
                     padding: '15px'
                 });
 
-                // Crear contenedor del contenido
                 const contenido = document.createElement('div');
                 Object.assign(contenido.style, {
                     backgroundColor: '#111',
-                    border: '2px solid #e60023',
+                    border: '2px solid var(--primary-color)',
                     borderRadius: '8px',
                     width: '100%',
                     maxWidth: '450px',
                     padding: '25px',
                     color: 'whitesmoke',
-                    boxShadow: '0 0 25px rgba(230, 0, 35, 0.4)',
+                    boxShadow: '0 0 25px rgba(var(--primary-color-rgb), 0.4)',
                     position: 'relative'
                 });
 
-                // Título del modal
                 const tituloModal = document.createElement('h3');
                 tituloModal.textContent = "Mis Pedidos";
                 Object.assign(tituloModal.style, {
@@ -450,14 +598,13 @@
                     fontWeight: '800',
                     marginBottom: '20px',
                     textAlign: 'center',
-                    borderBottom: '1px solid #e60023',
+                    borderBottom: '1px solid var(--primary-color)',
                     paddingBottom: '10px',
                     textTransform: 'uppercase',
                     letterSpacing: '1px'
                 });
                 contenido.appendChild(tituloModal);
 
-                // Lista de productos ordenados
                 const listaProductos = document.createElement('div');
                 Object.assign(listaProductos.style, {
                     maxHeight: '240px',
@@ -491,18 +638,51 @@
                         });
 
                         fila.innerHTML = `
-                            <div>
-                                <span style="font-weight:700; color:#e60023;">${item.cantidad}x</span> 
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <button class="btn-eliminar" data-index="${index}" style="
+                                    background-color: #000;
+                                    color: #fff;
+                                    border: 1.5px solid var(--primary-color);
+                                    border-radius: 4px;
+                                    width: 22px;
+                                    height: 22px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    cursor: pointer;
+                                    transition: all 0.2s ease;
+                                    font-family: 'Montserrat', sans-serif;
+                                    line-height: 1;
+                                    padding: 0;
+                                ">&times;</button>
+                                <span style="font-weight:700; color:var(--primary-color);">${item.cantidad}x</span> 
                                 <span>${item.titulo}</span>
                             </div>
                             <span style="font-weight:600;">$${subtotal}</span>
                         `;
+
+                        const btnEliminar = fila.querySelector('.btn-eliminar');
+                        btnEliminar.addEventListener('mouseenter', () => {
+                            btnEliminar.style.backgroundColor = 'var(--primary-color)';
+                            btnEliminar.style.color = '#000';
+                        });
+                        btnEliminar.addEventListener('mouseleave', () => {
+                            btnEliminar.style.backgroundColor = '#000';
+                            btnEliminar.style.color = '#fff';
+                        });
+                        btnEliminar.addEventListener('click', () => {
+                            carrito.splice(index, 1);
+                            actualizarInterfazCarrito();
+                            abrirModalPedidos();
+                        });
+
                         listaProductos.appendChild(fila);
                     });
                 }
                 contenido.appendChild(listaProductos);
 
-                // Footer con el Total
                 const totalContenedor = document.createElement('div');
                 Object.assign(totalContenedor.style, {
                     display: 'flex',
@@ -512,16 +692,62 @@
                     marginBottom: '25px',
                     paddingTop: '5px'
                 });
-                totalContenedor.innerHTML = `<span>TOTAL:</span><span style="color:#e60023;">$${totalCompra}</span>`;
+                totalContenedor.innerHTML = `<span>TOTAL:</span><span style="color:var(--primary-color);">$${totalCompra}</span>`;
                 contenido.appendChild(totalContenedor);
 
-                // Botón de Enviar a WhatsApp
+                if (carrito.length > 0) {
+                    const metodoPagoContenedor = document.createElement('div');
+                    Object.assign(metodoPagoContenedor.style, {
+                        borderTop: '1px solid rgba(255, 255, 255, 0.1)',
+                        paddingTop: '15px',
+                        marginBottom: '20px',
+                        fontSize: '13px'
+                    });
+                    
+                    metodoPagoContenedor.innerHTML = `
+                        <p style="font-weight: 800; font-size: 13px; margin-bottom: 12px; color: var(--primary-color); letter-spacing: 0.5px; text-transform: uppercase;">Método de Pago:</p>
+                        <div style="display: flex; flex-direction: column; gap: 10px;">
+                            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none;">
+                                <input type="radio" name="metodo-pago" value="whatsapp" checked style="accent-color: var(--primary-color); cursor: pointer;">
+                                <span>Coordinar por WhatsApp</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none;">
+                                <input type="radio" name="metodo-pago" value="paypal" style="accent-color: var(--primary-color); cursor: pointer;">
+                                <span>PayPal (ruizcristoferluciano@gmail.com)</span>
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none;">
+                                <input type="radio" name="metodo-pago" value="transferencia" style="accent-color: var(--primary-color); cursor: pointer;">
+                                <span>Transferencia Popular (851326082)</span>
+                            </label>
+                        </div>
+                        <div id="instrucciones-pago" style="margin-top: 12px; font-size: 11px; color: #b3b3b3; background: #080808; border: 1px solid rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 4px; display: none; line-height: 1.4;"></div>
+                    `;
+                    contenido.appendChild(metodoPagoContenedor);
+
+                    const radios = metodoPagoContenedor.querySelectorAll('input[name="metodo-pago"]');
+                    const instBox = metodoPagoContenedor.querySelector('#instrucciones-pago');
+
+                    radios.forEach(radio => {
+                        radio.addEventListener('change', (e) => {
+                            if (e.target.value === 'paypal') {
+                                instBox.style.display = 'block';
+                                instBox.innerHTML = `Paga de forma rápida mediante PayPal a <strong style="color:var(--primary-color);">ruizcristoferluciano@gmail.com</strong>.<br>Al hacer clic en enviar, se adjuntará un enlace de pago directo en tu WhatsApp.`;
+                            } else if (e.target.value === 'transferencia') {
+                                instBox.style.display = 'block';
+                                instBox.innerHTML = `Realiza tu transferencia al <strong>Banco Popular</strong>:<br>Cuenta No: <strong style="color:var(--primary-color);">851326082</strong>.<br>Por favor adjunta el comprobante en tu mensaje de WhatsApp.`;
+                            } else {
+                                instBox.style.display = 'none';
+                            }
+                        });
+                    });
+                }
+
                 const btnEnviar = document.createElement('button');
                 btnEnviar.textContent = "Enviar Pedido por WhatsApp";
                 Object.assign(btnEnviar.style, {
                     width: '100%',
                     padding: '12px',
-                    backgroundColor: '#e60023',
+                    backgroundColor: 'var(--primary-color)',
                     color: 'white',
                     border: 'none',
                     borderRadius: '4px',
@@ -538,21 +764,31 @@
                     btnEnviar.disabled = true;
                 } else {
                     btnEnviar.addEventListener('click', () => {
-                        // Creación del mensaje personalizado estructurado para tu negocio
-                        let textoMensaje = "¡Hola StreetFlow! 🔥 Me gustaría realizar el siguiente pedido:\n\n";
+                        const metodoSeleccionado = contenido.querySelector('input[name="metodo-pago"]:checked')?.value || 'whatsapp';
+
+                        let textoMensaje = "¡Hola XTech! ⚡ Me gustaría realizar el siguiente pedido:\n\n";
                         carrito.forEach(item => {
                             textoMensaje += `• ${item.cantidad}x ${item.titulo} - ($${item.precio} c/u)\n`;
                         });
-                        textoMensaje += `\n💰 *Total de la Orden:* $${totalCompra}\n\nQuedo atento para coordinar el pago y la entrega.`;
+                        textoMensaje += `\n💰 *Total de la Orden:* $${totalCompra}\n`;
 
-                        // Enlace oficial de la API de WhatsApp
+                        if (metodoSeleccionado === 'paypal') {
+                            const paypalLink = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ruizcristoferluciano@gmail.com&currency_code=USD&amount=${totalCompra}&item_name=Pedido+XTech`;
+                            textoMensaje += `\n💳 *Método de Pago:* PayPal\n✉️ *Cuenta:* ruizcristoferluciano@gmail.com\n🔗 *Enlace de Pago Directo:* ${paypalLink}\n`;
+                        } else if (metodoSeleccionado === 'transferencia') {
+                            textoMensaje += `\n💳 *Método de Pago:* Transferencia Banco Popular\n🏦 *Cuenta No:* 851326082\n⚠️ _(Adjuntaré el comprobante de transferencia a continuación)_\n`;
+                        } else {
+                            textoMensaje += `\n💳 *Método de Pago:* Coordinar por WhatsApp\n`;
+                        }
+
+                        textoMensaje += `\nQuedo atento para coordinar la entrega.`;
+
                         const urlWhatsApp = `https://wa.me/${TELEFONO_WHATSAPP}?text=${encodeURIComponent(textoMensaje)}`;
                         window.open(urlWhatsApp, '_blank');
                     });
                 }
                 contenido.appendChild(btnEnviar);
 
-                // Botón para Cerrar Modal
                 const btnCerrar = document.createElement('button');
                 btnCerrar.textContent = "Cerrar Ventana";
                 Object.assign(btnCerrar.style, {
@@ -569,7 +805,6 @@
                 btnCerrar.addEventListener('click', () => overlay.remove());
                 contenido.appendChild(btnCerrar);
 
-                // Cerrar al hacer clic fuera del cuadro de diálogo
                 overlay.addEventListener('click', (e) => {
                     if (e.target === overlay) overlay.remove();
                 });
@@ -580,6 +815,5 @@
         });
     </script>
 </body>
+
 </html>
-
-
